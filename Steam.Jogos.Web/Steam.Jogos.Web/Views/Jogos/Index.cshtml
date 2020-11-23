@@ -1,0 +1,103 @@
+﻿@model IEnumerable<Steam.Jogos.Web.ViewModels.Jogo.JogoIndexViewModel>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<div class="row">
+    <div class="col-md-10">
+        <input type="text" id="pesquisaJogo" class="form-control" />
+    </div>
+    <div class="col-md-2">
+        <button id="btnPesquisarJogo">Pesquisar</button>
+    </div>
+</div>
+<table class="table" id="tblJogos">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Nome)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Descricao)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Preco)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Desenvolvedora)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.EmailDev)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Nome)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Descricao)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Preco)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Desenvolvedora)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.EmailDev)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
+                    @Html.ActionLink("Details", "Details", new { id = item.Id }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = item.Id })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+@section Scripts{
+    <script>
+        $(document).ready(function(){
+            $("#btnPesquisarJogo").click(function () {
+                var termoPesquisa = $("#pesquisaJogo").val();
+                $.ajax({
+                    method: "GET",
+                    url: "/Jogos/FiltrarPorNome?Pesquisa=" + termoPesquisa,
+                    success: function (data) {
+                        $("#tblJogos tbody > tr").remove();
+                        $.each(data, function (i, album) {
+                            $("#tblJogos tbody").append(
+                                "<tr>" +
+                                "<td>" + jogos.Nome + "</td>" +
+                                "<td>" + jogos.Descricao + "</td>" +
+                                "<td>" + jogos.Preco + "</td>" +
+                                "<td>" + jogos.Desenvolvedora + "</td>" +
+                                "<td>" + jogos.EmailDev + "</td>" +
+                                "<td>" +
+                                "<a href='/Albuns/Edit" + jogos.Id + "'>Editar</a>" +
+                                "<a href='/Albuns/Details" + jogos.Id + "'>Editar</a>" +
+                                "<a href='/Albuns/Delete" + jogos.Id + "'>Editar</a>" +
+                                "</td>" +
+                                "</tr>"
+                            );
+                        });
+                    },
+                    error: function (data) {
+                        alert("Jouve um erro na Pesquisa");
+                    }
+                });
+            });
+        });
+    </script>
+}

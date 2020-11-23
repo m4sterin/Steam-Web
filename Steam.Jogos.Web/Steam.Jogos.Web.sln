@@ -1,0 +1,79 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Steam.Jogos.Web", "Steam.Jogos.Web\Steam.Jogos.Web.csproj", "{01817EC3-36BD-47D3-8D3C-1C3D54ABD950}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B3477117-ED21-40FC-A1BB-A209753985F1} = {B3477117-ED21-40FC-A1BB-A209753985F1}
+		{1A93B490-1847-4990-808A-8B3F376AE92F} = {1A93B490-1847-4990-808A-8B3F376AE92F}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dominio", "Dominio", "{603C0ED5-8170-41DA-841B-CE60F4526430}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Steam.Jogos.Dominio", "Steam.Jogos.Dominio\Steam.Jogos.Dominio.csproj", "{3CDDA119-8FED-4BA9-AE1A-6D6DC66CDF94}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dados", "Dados", "{9ED8BB91-309A-427A-8112-A15C87094333}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Steam.Jogos.Dados.Entity", "Steam.Jogos.Dados.Entity\Steam.Jogos.Dados.Entity.csproj", "{244F1F58-CFA9-4241-A84B-DC0A66E493BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Steam.Jogos.Generica.Entity", "Steam.Jogos.Generica.Entity\Steam.Jogos.Generica.Entity.csproj", "{2120FCB9-2610-4C2A-80C4-2F195B6243C8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repositorios", "Repositorios", "{BB5AF8CF-3D42-4923-BB2D-009875A8F83C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Steam.Jogos.Repositorios.Comum", "Steam.Jogos.Repositorios.Comum\Steam.Jogos.Repositorios.Comum.csproj", "{1A93B490-1847-4990-808A-8B3F376AE92F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Steam.Repositorios.Comum.Entity", "Steam.Repositorios.Comum.Entity\Steam.Repositorios.Comum.Entity.csproj", "{B3477117-ED21-40FC-A1BB-A209753985F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Steam.Jogos.Repositorios.Entity", "Steam.Jogos.Repositorios.Entity\Steam.Jogos.Repositorios.Entity.csproj", "{2C915F5B-1991-4C52-A129-08BE45CAC582}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{01817EC3-36BD-47D3-8D3C-1C3D54ABD950}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01817EC3-36BD-47D3-8D3C-1C3D54ABD950}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01817EC3-36BD-47D3-8D3C-1C3D54ABD950}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01817EC3-36BD-47D3-8D3C-1C3D54ABD950}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CDDA119-8FED-4BA9-AE1A-6D6DC66CDF94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CDDA119-8FED-4BA9-AE1A-6D6DC66CDF94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CDDA119-8FED-4BA9-AE1A-6D6DC66CDF94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CDDA119-8FED-4BA9-AE1A-6D6DC66CDF94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{244F1F58-CFA9-4241-A84B-DC0A66E493BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{244F1F58-CFA9-4241-A84B-DC0A66E493BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{244F1F58-CFA9-4241-A84B-DC0A66E493BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{244F1F58-CFA9-4241-A84B-DC0A66E493BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2120FCB9-2610-4C2A-80C4-2F195B6243C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2120FCB9-2610-4C2A-80C4-2F195B6243C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2120FCB9-2610-4C2A-80C4-2F195B6243C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2120FCB9-2610-4C2A-80C4-2F195B6243C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A93B490-1847-4990-808A-8B3F376AE92F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A93B490-1847-4990-808A-8B3F376AE92F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A93B490-1847-4990-808A-8B3F376AE92F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A93B490-1847-4990-808A-8B3F376AE92F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3477117-ED21-40FC-A1BB-A209753985F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3477117-ED21-40FC-A1BB-A209753985F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3477117-ED21-40FC-A1BB-A209753985F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3477117-ED21-40FC-A1BB-A209753985F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C915F5B-1991-4C52-A129-08BE45CAC582}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C915F5B-1991-4C52-A129-08BE45CAC582}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C915F5B-1991-4C52-A129-08BE45CAC582}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C915F5B-1991-4C52-A129-08BE45CAC582}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3CDDA119-8FED-4BA9-AE1A-6D6DC66CDF94} = {603C0ED5-8170-41DA-841B-CE60F4526430}
+		{244F1F58-CFA9-4241-A84B-DC0A66E493BD} = {9ED8BB91-309A-427A-8112-A15C87094333}
+		{2120FCB9-2610-4C2A-80C4-2F195B6243C8} = {9ED8BB91-309A-427A-8112-A15C87094333}
+		{1A93B490-1847-4990-808A-8B3F376AE92F} = {BB5AF8CF-3D42-4923-BB2D-009875A8F83C}
+		{B3477117-ED21-40FC-A1BB-A209753985F1} = {BB5AF8CF-3D42-4923-BB2D-009875A8F83C}
+		{2C915F5B-1991-4C52-A129-08BE45CAC582} = {BB5AF8CF-3D42-4923-BB2D-009875A8F83C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4EF19DE5-A5DD-496F-A0C8-82914FD47EF2}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,12 @@
+C:\Users\caio.rodrigues\source\repos\Steam.Jogos.Web\Steam.Jogos.Dominio\bin\Debug\Steam.Jogos.Dominio.dll
+C:\Users\caio.rodrigues\source\repos\Steam.Jogos.Web\Steam.Jogos.Dominio\bin\Debug\Steam.Jogos.Dominio.pdb
+C:\Users\caio.rodrigues\source\repos\Steam.Jogos.Web\Steam.Jogos.Dominio\obj\Debug\Steam.Jogos.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\caio.rodrigues\source\repos\Steam.Jogos.Web\Steam.Jogos.Dominio\obj\Debug\Steam.Jogos.Dominio.dll
+C:\Users\caio.rodrigues\source\repos\Steam.Jogos.Web\Steam.Jogos.Dominio\obj\Debug\Steam.Jogos.Dominio.pdb
+C:\Users\caio.rodrigues\source\repos\Steam.Jogos.Web\Steam.Jogos.Dominio\obj\Debug\Steam.Jogos.Dominio.csprojAssemblyReference.cache
+E:\Mislene\projetos\Steam.Jogos.Web\Steam.Jogos.Dominio\bin\Debug\Steam.Jogos.Dominio.dll
+E:\Mislene\projetos\Steam.Jogos.Web\Steam.Jogos.Dominio\bin\Debug\Steam.Jogos.Dominio.pdb
+E:\Mislene\projetos\Steam.Jogos.Web\Steam.Jogos.Dominio\obj\Debug\Steam.Jogos.Dominio.csprojAssemblyReference.cache
+E:\Mislene\projetos\Steam.Jogos.Web\Steam.Jogos.Dominio\obj\Debug\Steam.Jogos.Dominio.csproj.CoreCompileInputs.cache
+E:\Mislene\projetos\Steam.Jogos.Web\Steam.Jogos.Dominio\obj\Debug\Steam.Jogos.Dominio.dll
+E:\Mislene\projetos\Steam.Jogos.Web\Steam.Jogos.Dominio\obj\Debug\Steam.Jogos.Dominio.pdb

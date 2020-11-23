@@ -1,0 +1,50 @@
+﻿@model Steam.Jogos.Web.ViewModels.Dlcc.DlcIndexViewModel
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Dlc</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.NomeJogo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NomeJogo)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NomeDlc)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NomeDlc)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DescricaoDlc)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DescricaoDlc)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PrecoDlc)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PrecoDlc)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.IdDlc }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

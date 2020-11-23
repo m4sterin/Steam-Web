@@ -1,0 +1,51 @@
+﻿@model IEnumerable<Steam.Jogos.Web.ViewModels.Dlcc.DlcIndexViewModel>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.NomeJogo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NomeDlc)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DescricaoDlc)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PrecoDlc)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.NomeJogo)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NomeDlc)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DescricaoDlc)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PrecoDlc)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.IdDlc }) |
+            @Html.ActionLink("Details", "Details", new { id=item.IdDlc }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.IdDlc })
+        </td>
+    </tr>
+}
+
+</table>

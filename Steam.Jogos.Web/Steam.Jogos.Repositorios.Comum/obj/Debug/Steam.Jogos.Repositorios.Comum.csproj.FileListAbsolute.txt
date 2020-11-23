@@ -1,0 +1,6 @@
+E:\Mislene\projetos\Steam.Jogos.Web\Steam.Jogos.Repositorios.Comum\bin\Debug\Steam.Jogos.Repositorios.Comum.dll
+E:\Mislene\projetos\Steam.Jogos.Web\Steam.Jogos.Repositorios.Comum\bin\Debug\Steam.Jogos.Repositorios.Comum.pdb
+E:\Mislene\projetos\Steam.Jogos.Web\Steam.Jogos.Repositorios.Comum\obj\Debug\Steam.Jogos.Repositorios.Comum.csprojAssemblyReference.cache
+E:\Mislene\projetos\Steam.Jogos.Web\Steam.Jogos.Repositorios.Comum\obj\Debug\Steam.Jogos.Repositorios.Comum.csproj.CoreCompileInputs.cache
+E:\Mislene\projetos\Steam.Jogos.Web\Steam.Jogos.Repositorios.Comum\obj\Debug\Steam.Jogos.Repositorios.Comum.dll
+E:\Mislene\projetos\Steam.Jogos.Web\Steam.Jogos.Repositorios.Comum\obj\Debug\Steam.Jogos.Repositorios.Comum.pdb

@@ -1,0 +1,14 @@
+E:\Mislene\projetos\Steam.Jogos.Web\Steam.Repositorios.Comum.Entity\bin\Debug\Steam.Repositorios.Comum.Entity.dll.config
+E:\Mislene\projetos\Steam.Jogos.Web\Steam.Repositorios.Comum.Entity\bin\Debug\Steam.Repositorios.Comum.Entity.dll
+E:\Mislene\projetos\Steam.Jogos.Web\Steam.Repositorios.Comum.Entity\bin\Debug\Steam.Repositorios.Comum.Entity.pdb
+E:\Mislene\projetos\Steam.Jogos.Web\Steam.Repositorios.Comum.Entity\bin\Debug\EntityFramework.dll
+E:\Mislene\projetos\Steam.Jogos.Web\Steam.Repositorios.Comum.Entity\bin\Debug\EntityFramework.SqlServer.dll
+E:\Mislene\projetos\Steam.Jogos.Web\Steam.Repositorios.Comum.Entity\bin\Debug\Steam.Jogos.Repositorios.Comum.dll
+E:\Mislene\projetos\Steam.Jogos.Web\Steam.Repositorios.Comum.Entity\bin\Debug\Steam.Jogos.Repositorios.Comum.pdb
+E:\Mislene\projetos\Steam.Jogos.Web\Steam.Repositorios.Comum.Entity\bin\Debug\EntityFramework.xml
+E:\Mislene\projetos\Steam.Jogos.Web\Steam.Repositorios.Comum.Entity\bin\Debug\EntityFramework.SqlServer.xml
+E:\Mislene\projetos\Steam.Jogos.Web\Steam.Repositorios.Comum.Entity\obj\Debug\Steam.Repositorios.Comum.Entity.csprojAssemblyReference.cache
+E:\Mislene\projetos\Steam.Jogos.Web\Steam.Repositorios.Comum.Entity\obj\Debug\Steam.Repositorios.Comum.Entity.csproj.CoreCompileInputs.cache
+E:\Mislene\projetos\Steam.Jogos.Web\Steam.Repositorios.Comum.Entity\obj\Debug\Steam.Repositorios.Comum.Entity.csproj.CopyComplete
+E:\Mislene\projetos\Steam.Jogos.Web\Steam.Repositorios.Comum.Entity\obj\Debug\Steam.Repositorios.Comum.Entity.dll
+E:\Mislene\projetos\Steam.Jogos.Web\Steam.Repositorios.Comum.Entity\obj\Debug\Steam.Repositorios.Comum.Entity.pdb
