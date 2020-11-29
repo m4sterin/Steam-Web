@@ -11,11 +11,14 @@ using Steam.Jogos.Dados.Entity.Context;
 using Steam.Jogos.Dominio;
 using Steam.Jogos.Repositorios.Comum;
 using Steam.Jogos.Repositorios.Entity;
+using Steam.Jogos.Web.Filtros;
 using Steam.Jogos.Web.ViewModels.Dlcc;
 using Steam.Jogos.Web.ViewModels.Jogo;
 
 namespace Steam.Jogos.Web.Controllers
 {
+    [LogActionFilter]
+    [Authorize]
     public class DlcsController : Controller
     {
         private IRepositorioGenerico<Dlc, int>

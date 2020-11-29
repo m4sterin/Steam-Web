@@ -14,6 +14,12 @@ namespace Steam.Jogos.Web
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
             routes.MapRoute(
+                name: "FiltrarPorNome",
+                url: "Jogos/FiltrarPorNome/{pesquisa}",
+                defaults: new { controller = "Jogos", action = "FiltrarPorNome", UrlParameter.Optional }
+               );
+
+            routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
                 defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }

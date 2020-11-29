@@ -1,4 +1,5 @@
-﻿using System.Web;
+﻿using Steam.Jogos.Web.Filtros;
+using System.Web;
 using System.Web.Mvc;
 
 namespace Steam.Jogos.Web
@@ -8,6 +9,7 @@ namespace Steam.Jogos.Web
         public static void RegisterGlobalFilters(GlobalFilterCollection filters)
         {
             filters.Add(new HandleErrorAttribute());
+            filters.Add(new LogActionFilter());
         }
     }
 }
